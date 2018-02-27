@@ -1,0 +1,61 @@
+@font-face {
+  font-family: 'ficon';
+  src:  url('../fonts/ficon.eot');
+  src:  url('../fonts/ficon.eot#iefix') format('embedded-opentype'),
+  url('../fonts/ficon.ttf') format('truetype'),
+  url('../fonts/ficon.woff') format('woff'),
+  url('../fonts/ficon.svg#ficon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class*=" ficon-"],
+[class^=ficon-] {
+  font-family: 'ficon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.ficon-upload:before {
+  content: "\e90b";
+}
+.ficon-file:before {
+  content: "\e90c";
+}
+.ficon-cert:before {
+  content: "\e90a";
+}
+.ficon-point:before {
+  content: "\e909";
+}
+.ficon-account:before {
+  content: "\e908";
+}
+.ficon-account2:before {
+  content: "\e907";
+}
+.ficon-calc:before {
+  content: "\e906";
+}
+.ficon-furniture:before {
+  content: "\e904";
+}
+.ficon-fin:before {
+  content: "\e905";
+}
+.ficon-public:before {
+  content: "\e903";
+}
+.ficon-inteo:before {
+  content: "\e902";
+}
+.ficon-saw:before {
+  content: "\e901";
+}
+.ficon-list:before {
+  content: "\e900";
+}
